@@ -1,6 +1,6 @@
-# UCLA-neuropixels-2026
+# Colorado-neuropixels-2026
 
-This repository contains files for the _Python_ tutorials in the 2026 UCLA Neuropixels course. 
+This repository contains files for the _Python_ tutorials in the 2026 Colorado Neuropixels course. 
 
 The goal of the tutorials is to show how to navigate spike sorting outputs to retrieve data and make plots and how data are structured, so we use mostly standard python libraries.
 
