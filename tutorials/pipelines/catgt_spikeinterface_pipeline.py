@@ -215,11 +215,11 @@ def custom_metrics_table(analyzer_folder, phy_folder):
 def main():
     # ------User params---------------------
     # Data details
-    raw_data_parent = r'D:\pipeline_test_data'
-    run_name = 'SC035_010720_ex'     # excludes gate and trigger
-    gate_str = '0'
-    prb_ind = 0
-    output_parent=r'D:\si_testing\catgt_si_out'
+    raw_data_parent = r'D:\course_data\AL032\AL032'
+    run_name = 'AL032_2019-11-21_stripe192-natIm'     # excludes gate and trigger
+    gate_str = '0'         # from the run folder name, _g0 => gate_str=0
+    prb_ind = 1000         # from the name of the probe folder
+    output_parent=r'D:\course_data\output'
 
     # CatGT params
     car_mode = "gblcar"
