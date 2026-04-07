@@ -376,7 +376,7 @@ def estimate_spike_positions_from_features(spike_templates,spike_pc_features,tem
     spike_locations = (np.sum(feature_coords.transpose((2,0,1))*pc_features,axis=2)/np.sum(pc_features,axis=1)).T
     return spike_locations
 
-def load_phy_folder(folder):
+def load_phy_folder(folder, analyzer_waveforms):
     # we load the results in a dictionary so we don't accidentally confuse results from different sessions
     res = dict(
         # spiketimes and other
@@ -391,7 +391,7 @@ def load_phy_folder(folder):
         # waveforms
         channel_indices = np.load(folder.rglob('channel_map.npy').__next__()),
         channel_positions = np.load(folder.rglob('channel_positions.npy').__next__()),
-        mean_waveforms = np.load(folder.rglob('mean_waveforms.npy').__next__()),
+        mean_waveforms = np.load(analyzer_waveforms.rglob('average.npy').__next__()),
         templates = np.load(folder.rglob('templates.npy').__next__()),
         whitening_mat_inv = np.load(folder.rglob('whitening_mat_inv.npy').__next__())
     )

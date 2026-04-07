@@ -98,13 +98,9 @@ In short, the _minimum requirements_ for an **acquisition computer**  are:
  - PCIe 8x slot for **PCI based PXIe controllers** These controllers are no longer sold by _NationalInstruments_ but may still be present in many labs.
  - Thunderbolt enabled for [**thunderbold PXIe**](https://www.ni.com/en-us/shop/model/pxie-1083.html?partNumber=787026-01)
 
-## Installing a python environment
+## Installing software
 
-To install start by getting [Anaconda](https://www.anaconda.com/distribution/#download-section), [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Miniforge](https://github.com/conda-forge/miniforge). Install also [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Run the following commands from a terminal window (Anaconda prompt or git Bash on Windows, the Mac OS terminal). 
-
- - Create an environment for kilosort and analysis:
-   1. ``conda create -n npix-analysis python=3.12 pytorch torchvision torchaudio pytorch-cuda=12.1 pandas natsort ipympl ipywidgets jupyterlab_widgets boto3 pyqt pyqtgraph scikit-learn scipy jupyterlab zarr -c pytorch -c nvidia`` note that for installation on M1 mac's you need to remove **pytorch-cuda=12.1**
-   2. ``pip install kilosort[gui]``
+Complete installation instructions for software for the course are included "sheets" folder of this repo, also [here](https://github.com/jcouto/colorado-neuropixels-2026/blob/main/sheets/u24_student_software_installation.pdf).
   
  
     

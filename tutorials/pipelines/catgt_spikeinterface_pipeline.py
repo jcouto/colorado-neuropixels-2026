@@ -7,7 +7,7 @@ Dredge is called through SpikeInterface for drift correction
 KS4 and some metrics calculations are done through SpikeIntterface
 
 To run this pipeline:
-1) Follow instructions in 'NP_workshop_software_install.pdf' to create
+1) Follow instructions in 'u24_student_software_installation.pdf' to create
    the npix-test environment. Select that environment as your Python interpreter.
 2) Install CatGT and copy the path to catGTPath
 3) Set User params (top of main())
