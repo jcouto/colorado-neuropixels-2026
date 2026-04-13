@@ -101,8 +101,9 @@ In short, the _minimum requirements_ for an **acquisition computer**  are:
 
 ## Installing software
 
-Complete installation instructions for software for the course are included "sheets" folder of this repo, also [here](https://github.com/jcouto/colorado-neuropixels-2026/blob/main/sheets/u24_student_software_installation.pdf).
-  
+> [!IMPORTANT]
+>Complete installation instructions for software for the course are included "sheets" folder of this repo, also [here](https://github.com/jcouto/colorado-neuropixels-2026/blob/main/sheets/u24_student_software_installation.pdf).
+>  
 
 ## References and links
 
