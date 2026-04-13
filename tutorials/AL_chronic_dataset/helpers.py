@@ -423,6 +423,7 @@ Available datasets:
     - chronic_stimulus
     - chronic_sorting_output
     - chronic_raw
+    - sync
 
 You can also access the datasets here: https://drive.google.com/drive/folders/1NgLJcoTkgbn2edV8MfLVVbLhEMJn8JfC?usp=share_link
 
@@ -458,11 +459,13 @@ This dataset was prepared by Jennifer Colonell (HHMI Janelia)
         return
     if dataset_name == 'chronic_stimulus':
         file_list = dict(AL032_stimulus = '1ecWZdG-xjWCNq37hop1Go1__WkxVv5Lo',
-                         AL032_out = '1ko94OPRynre9AsTwHvTTiNbuK7dtZSRJ',)
+                         AL032_out = '1cnxe4GcTI4recrZA3vY52SwfwOry5fU-',)
     elif dataset_name == 'chronic_sorting_output':
-        file_list = dict(AL032_out = '1ko94OPRynre9AsTwHvTTiNbuK7dtZSRJ')
+        file_list = dict(AL032_out = '1cnxe4GcTI4recrZA3vY52SwfwOry5fU-')
     elif dataset_name == 'chronic_raw':
         file_list = dict(AL032 = '16asaS_ZAxxQk8iYlptyPWl3BTr0tcW0Y')
+    elif dataset_name == 'sync':
+        file_list = dict(sync = '1_4va0mQJ3ma31CHsGrB7PU2VaCJkRmJv')    
     else:
         raise(ValueError(f'Unknown dataset {dataset_name}.'))
     try:
