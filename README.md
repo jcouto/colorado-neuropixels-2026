@@ -12,7 +12,8 @@ The goal of the tutorials is to show how to navigate spike sorting outputs to re
    - [explore responses to visual stimuli](tutorials/AL_chronic_dataset/03_visual_response.ipynb)
  - **[Waveplayer](waveform_player)**
  - [Brief description of Neuropixels hardware](#brief-description-of-neuropixels-hardware) see also [the sheet](sheets/neuropixels_hardware_overview.png)
- - [Installation](#installing-a-python-environment)
+ - Installation
+   - **[Software and environment installation](#installing-software)]
    - **[Install Onebox](https://billkarsh.github.io/SpikeGLX/Sgl_help/SpikeGLX_OneBox_Quickstart.html)**
  - [References and links](#references-and-links)
 
@@ -102,9 +103,6 @@ In short, the _minimum requirements_ for an **acquisition computer**  are:
 
 Complete installation instructions for software for the course are included "sheets" folder of this repo, also [here](https://github.com/jcouto/colorado-neuropixels-2026/blob/main/sheets/u24_student_software_installation.pdf).
   
- 
-    
-
 
 ## References and links
 

@@ -21,10 +21,11 @@ The tutorials are organized into four sections, meant to be followed in the orde
 
 ### Install the Python environment
 
-Complete installation instructions are provided in the course materials:
-[`../sheets/u24_student_software_installation.pdf`](../sheets/u24_student_software_installation.pdf)
-
-This document describes how to set up the `npix-test` conda environment that includes all required packages (NumPy, SciPy, pandas, Matplotlib, SpikeInterface, Kilosort and others).
+> [!IMPORTANT]
+> Complete installation instructions for software for the course are included in the `sheets` folder of this repository:
+> [`../sheets/u24_student_software_installation.pdf`](../sheets/u24_student_software_installation.pdf)
+>
+> This document describes how to set up the `npix-test` conda environment that includes all required packages (NumPy, SciPy, pandas, Matplotlib, SpikeInterface, Kilosort and others).
 
 ### Launch Jupyter from the correct environment or use ``VSCode`` to run these notebooks
 
