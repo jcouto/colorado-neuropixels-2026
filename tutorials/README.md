@@ -43,7 +43,9 @@ jupyter notebook
 Several tutorials require data to be downloaded before the notebook can be run.
 The AL032 chronic dataset section begins with a dedicated download notebook (`00_download_data.ipynb`) that automates this step. Run that notebook before attempting the others in that section.
 
-Alternatively, you can download the data from this link: 
+Alternatively, you can download the data and unzip from this link:
+	 - [AL32 Output](https://drive.google.com/file/d/1cnxe4GcTI4recrZA3vY52SwfwOry5fU-/view?usp=drive_link)
+	 - [Sync example](https://drive.google.com/file/d/1_4va0mQJ3ma31CHsGrB7PU2VaCJkRmJv/view?usp=drive_link)   
 
 ---
 
@@ -222,4 +224,3 @@ Analyzes grating responses across the recorded population. Includes PSTHs, trial
 - Path to the stimulus events file
 
 ---
-
