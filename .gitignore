@@ -1,10 +1,4 @@
-tutorials/pre_processing/.ipynb_checkpoints/nn_clock_calibration_and_sync-checkpoint.ipynb
-tutorials/pipelines/.vscode/settings.json
-tutorials/AL_chronic_dataset/__pycache__/helpers.cpython-312.pyc
-tutorials/AL_chronic_dataset/.ipynb_checkpoints/helpers-checkpoint.py
-tutorials/AL_chronic_dataset/.ipynb_checkpoints/bin_array-checkpoint.png
-tutorials/AL_chronic_dataset/.ipynb_checkpoints/02_load_output-checkpoint.ipynb
-tutorials/AL_chronic_dataset/.ipynb_checkpoints/01_preprocessing_tshift-checkpoint.ipynb
-tutorials/AL_chronic_dataset/.ipynb_checkpoints/01_preprocessing_basic_filter-checkpoint.ipynb
-tutorials/AL_chronic_dataset/.ipynb_checkpoints/01_file_formats_plot_raw-checkpoint.ipynb
-tutorials/AL_chronic_dataset/.ipynb_checkpoints/00_download_data-checkpoint.ipynb
+*.ipynb_checkpoints*
+*.vscode*
+*__pycache__*
+*.*~
