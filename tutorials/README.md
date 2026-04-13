@@ -2,7 +2,7 @@
 
 This folder contains tutorials for the 2026 Colorado Neuropixels course. The tutorials are designed to guide you through the full workflow of working with Neuropixels electrophysiology data: from understanding the raw binary files produced by SpikeGLX, through spike sorting and quality control, to the analysis of neural responses.
 
-The tutorials are organized into four sections, meant to be followed in the order listed below.
+The tutorials are organized into sections (**spike sorting pipelines**, **clock sychronization**, **loading sorting output and basic analysis**), meant to be followed in the order listed below.
 
 ---
 
@@ -11,10 +11,7 @@ The tutorials are organized into four sections, meant to be followed in the orde
 1. [Before You Begin](#before-you-begin)
 2. [Spike Sorting Pipeline](#1-spike-sorting-pipeline)
 3. [Clock Synchronization](#2-clock-synchronization)
-4. [AL032 Chronic Dataset Tutorials](#3-al032-chronic-dataset-tutorials)
-5. [Visual Dataset Course Tutorials](#4-visual-dataset-course-tutorials)
-6. [Troubleshooting Common Issues](#troubleshooting-common-issues)
-
+4. [Sorting output and analysis](#3-sorting-output-and-analysys)
 ---
 
 ## Before You Begin
@@ -115,7 +112,7 @@ This notebook explains:
 
 ---
 
-## 3. AL032 Chronic Dataset Tutorials
+## 3. Sorting output and analysis
 
 **Folder:** `AL_chronic_dataset/`
 
