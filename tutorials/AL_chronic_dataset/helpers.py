@@ -376,8 +376,10 @@ def estimate_spike_positions_from_features(spike_templates,spike_pc_features,tem
     spike_locations = (np.sum(feature_coords.transpose((2,0,1))*pc_features,axis=2)/np.sum(pc_features,axis=1)).T
     return spike_locations
 
-def load_phy_folder(folder, analyzer_waveforms):
+def load_phy_folder(folder, analyzer_waveforms = None):
     # we load the results in a dictionary so we don't accidentally confuse results from different sessions
+    if analyzer_waveforms is None:
+        analyzer_waveforms = folder
     res = dict(
         # spiketimes and other
         spike_times = np.load(folder.rglob('spike_times.npy').__next__()),
