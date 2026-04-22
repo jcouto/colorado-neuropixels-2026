@@ -457,6 +457,11 @@ The data was taken from AL032, shank0 only, recording day 2019-11-21
 Raw binary + metadata, exported from the original binary provided by UCL (Thanks to Anna Lebedeva for help getting the original files).
 This dataset was prepared by Jennifer Colonell (HHMI Janelia)
 
+-------------------------------------
+    Dataset denman:
+-------------------------------------
+Data from two probes in a four-probe experiment. Data were recorded and prepared by Dan Denman (CU Anschutz). The preparation is acute and visual gratings are presented.  
+
         ''')
         return
     if dataset_name == 'chronic_stimulus':
@@ -466,6 +471,8 @@ This dataset was prepared by Jennifer Colonell (HHMI Janelia)
         file_list = dict(AL032_out = '1cnxe4GcTI4recrZA3vY52SwfwOry5fU-')
     elif dataset_name == 'chronic_raw':
         file_list = dict(AL032 = '16asaS_ZAxxQk8iYlptyPWl3BTr0tcW0Y')
+    elif dataset_name == 'denman':
+        file_list = dict(d9 = '1b6vbUmqxZ0OTt43xM5cnHj9mncUsnr_P')
     elif dataset_name == 'sync':
         file_list = dict(sync = '1_4va0mQJ3ma31CHsGrB7PU2VaCJkRmJv')    
     else:
